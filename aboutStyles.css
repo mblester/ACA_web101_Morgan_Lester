@@ -1,0 +1,111 @@
+.contacts-row-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.198vw;
+}
+.contacts-row-1 h3 {
+    position: relative;
+    left: -0.25vw;
+}
+.fc-wht, .fc-wht * {
+    color: #fff;
+}
+.fs-96, .fs-96 * {
+    font-size: 5.33333rem;
+}
+.f-ak-m, .f-ak-m * {
+    font-family: "AK2", sans-serif;
+    font-weight: 400;
+}
+.contacts-row-1 h1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    line-height: 1;
+    z-index: 2;
+}
+
+.fc-wht, .fc-wht * {
+    color: #fff;
+}
+.fs-96, .fs-96 * {
+    font-size: 5.33333rem;
+}
+.f-ak-m, .f-ak-m * {
+    font-family: "AK2", sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: black;
+}
+element.style {
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 3.79969, 0, 1);
+}
+.contacts-col-2 {
+    margin-top: -3.85vw;
+}
+.contacts-col-2 .contacts-img-cont {
+    position: relative;
+    width: 100%;
+    max-width: 22.275vw;
+    margin: 0 auto;
+    z-index: -1;
+}
+.contacts-col-2 .contacts-img {
+    position: relative;
+    height: 0;
+    padding-bottom: 109%;
+    background: #000;
+}
+.contacts-col-2 .contacts-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.contacts-col-2 .contacts-img-cont p {
+    margin-top: calc(6.198vw / 10);
+}
+
+.fc-grey, .fc-grey * {
+    color: #6e6f70;
+}
+.fs-12, .fs-12 * {
+    font-size: 0.66667rem;
+}
+
+
+a, body, button, div, footer, form, h1, h2, h3, h4, h5, header, html, img, label, li, nav, p, select, span, table, textarea, ul {
+    margin: 5px;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    cursor: auto;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    font-variant-ligatures: none;
+    user-select: none;
+}
+p {
+    line-height: 1.5 !important;
+}
+*, :before, :after {
+    box-sizing: border-box;
+}
+h3 {
+    display: block;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+

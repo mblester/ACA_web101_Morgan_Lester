@@ -1,183 +1,119 @@
 img{
-    width: 100%;
+    width: 60%;
+    justify-content: center;
+    align-content: center;
+    filter: grayscale(95%);
+    border-radius: 10px;
 }
 
-.u-section-2 {
+.section2 {
     background-image: url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/58029cc358d255cd9e2f1ca3/rrrr.jpg");
     background-position: 50% 50%;
   }
-  .u-section-2 .u-sheet-1 {
-    min-height: 757px;
-  }
-  .u-section-2 .u-group-1 {
-    width: 506px;
-    min-height: 632px;
-    background-image: none;
-    height: auto;
-    box-shadow: 5px 5px 20px 0 rgba(167,132,93,0.1);
-    margin: 60px auto;
-  }
-  .u-section-2 .u-container-layout-1 {
-    padding: 30px;
-  }
-  .u-section-2 .u-image-1 {
-    width: 227px;
-    height: 227px;
-    margin: 0 auto;
-  }
-  .u-section-2 .u-text-1 {
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    margin: 20px auto 0;
-  }
-  .u-section-2 .u-text-3 {
-    line-height: 2;
-    font-style: italic;
-    font-size: 1rem;
-    width: 343px;
-    font-weight: 400;
-    margin: 6px auto 0;
-  }
-  .u-section-2 .u-btn-1 {
-    background-image: none;
-    font-style: italic;
-    border-style: none none solid;
-    padding: 0;
-  }
-  .u-section-2 .u-btn-2 {
-    border-style: solid;
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 34px auto 0;
-    padding: 13px 47px;
-  }
-  @media (max-width: 1199px) {
-    .u-section-2 .u-sheet-1 {
-      min-height: 624px;
-    }
-    .u-section-2 .u-group-1 {
-      height: auto;
-    }
-  }
+ 
   @media (max-width: 991px) {
-     .u-section-2 {
+     .section2 {
       background-position: 0% 50%;
     }
-    .u-section-2 .u-sheet-1 {
+    .section2 {
       min-height: 478px;
     }
   }
-  @media (max-width: 767px) {
-    .u-section-2 .u-sheet-1 {
-      min-height: 742px;
+    .btn{
+      background: rgb(75, 99, 64);
+      color: #ebe1d2;
+      text-align: center;
+      padding: 10px 10px 10px 10px;
+        width: 30%;
+        height: 20px;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        ;
     }
-    .u-section-2 .u-group-1 {
-      width: 405px;
-      margin-top: 55px;
-      margin-bottom: 55px;
-    }
-  }
-  @media (max-width: 575px) {
-    .u-section-2 .u-sheet-1 {
-      min-height: 467px;
-    }
-  }
-    .u-section-2 .u-group-1 {
-      width: 340px;
-    }
-    .u-section-2 .u-container-layout-1 {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-    .u-section-2 .u-text-3 {
-      width: 320px;
-    }
-    .u-body {
+    .about-body {
         font-size: 1rem;
-        line-height: 1.6;
-        font-family: 'Open Sans',sans-serif;
         color: #111111;
-        background-color: #ffffff;
+        background-color: #ebe1d2;;
     }
-    body, aside, .u-sidebar-block, section, header, footer {
-        position: relative;
-    }
+  
     body {
-        height: auto;
-        min-height: 100%;
+      line-height: 1.7;
+      height: 100%;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+      justify-content: center;
+      align-items: center;
     }
-    section.u-image, .u-sheet.u-image, .u-group.u-image, .u-layout-cell.u-image {
-        overflow: visible;
-    }
-    .u-overlap.u-overlap-transparent .u-header, .u-image, .u-gradient {
-        color: #111111;
-    }
-    .u-align-center {
+    .alignCenter {
         text-align: center;
     }
-    .u-image, .u-background-effect-image, .u-video-poster {
-        object-fit: cover;
-        display: block;
-        vertical-align: middle;
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
-    }
     
-    .u-section-2 .u-sheet-1 {
-        min-height: 757px;
-    }
-    .u-valign-middle {
+    .alignMiddle {
         justify-content: center;
-    }
-    .u-valign-middle, .u-valign-top, .u-valign-bottom {
         display: flex;
         flex-direction: column;
-    }
-    .u-sheet {
-        position: relative;
-        width: 1140px;
-        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
     
-    .u-section-2 .u-group-1 {
-        width: 506px;
+    .section2 .containerStyle{
+        width: 500px;
         min-height: 632px;
         background-image: none;
         height: auto;
         box-shadow: 5px 5px 20px 0 rgb(167 132 93 / 10%);
         margin: 60px auto;
-    }
-    .u-tabs:not([class*="u-align-"]), .u-accordion:not([class*="u-align-"]), .u-repeater-item:not([class*="u-align-"]), .u-container-style:not([class*="u-align-"]) {
-        text-align: left;
-    }
-    .u-white, .u-body.u-white, .u-container-style.u-white:before, .u-container-layout.u-white:before, .u-table-alt-white tr:nth-child(even) {
         color: #111111;
-        background-color: #ffffff;
+        background-color: #f1eeea;
+        padding: 15px;
+        padding-top: 30px;
+        border-radius: 10px;
+        
     }
-    .u-group {
-        display: flex;
-    }
-    .u-valign-middle > *, .u-valign-top > *, .u-valign-bottom > * {
-        flex-shrink: 0;
-    }
+  p{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+  }
 
-    section.u-image, .u-sheet.u-image, .u-group.u-image, .u-layout-cell.u-image {
-        overflow: visible;
+
+    h2{
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+      font-size: 25pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin: 20px auto 0;
     }
-    .u-overlap.u-overlap-transparent .u-header, .u-image, .u-gradient {
-        color: #111111;
-    }
-    .u-align-center {
+    .alignCenter {
         text-align: center;
     }
-    .u-image, .u-background-effect-image, .u-video-poster {
-        object-fit: cover;
-        display: block;
-        vertical-align: middle;
-        background-size: cover;
-        background-position: 50% 50%;
-        background-repeat: no-repeat;
+
+    nav > a {
+      margin: 1% 1% 1% 1%;
+      background: rgb(75, 99, 64);
+      color: #fff;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+      font-size: 13pt;
+      text-align: center;
+      padding: 6pt;
+      letter-spacing: 8px;
+
+      text-decoration: none;
     }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color:rgb(40, 37, 44);
+      overflow: hidden;
+    }
+  
+  a:hover {
+      background-color: rgb(146, 113, 51);
+  }

@@ -21,7 +21,7 @@ body {
     }
     .wrap-contact {
         width: 500px;
-        background: #fff;
+        background-color: rgba(240, 240, 240, 0.7);
         border-radius: 10px;
         overflow: hidden;
         padding: 42px 55px 45px 55px;
@@ -83,6 +83,8 @@ body {
         padding-top: 5px;
         border-bottom: 2px solid #ebe1d2;
         margin-bottom: 27px;
+        background-color: transparent;
+        font-size: 12px;
 
     }
     .input {
@@ -117,5 +119,27 @@ body {
 
     div{
         margin: 15px;
+    }
+    nav > a {
+        margin: 1% 1% 1% 1%;
+        background: rgb(75, 99, 64);
+        color: #fff;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-size: 13pt;
+        text-align: center;
+        padding: 6pt;
+        letter-spacing: 8px;
+  
+        text-decoration: none;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color:rgb(40, 37, 44);
+        overflow: hidden;
+      }
+    
+    a:hover {
+        background-color: rgb(146, 113, 51);
     }
   

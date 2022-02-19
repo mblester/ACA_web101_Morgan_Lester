@@ -17,7 +17,7 @@ body {
     margin: 1% 5%;
     background-color: rgba(240, 240, 240, 0.4);
     border-radius: 50%;
-    -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(60%);
     filter: grayscale(90%);
   }
 
@@ -30,7 +30,7 @@ body {
     width: 100%;
     display: grid;
     margin: auto;
-    min-width: 200pt; /* <--- Notice the use of the pt unit */
+    min-width: 200pt; 
     max-width: 900pt;
     min-height: 150pt;
     max-height: 2000pt;
@@ -41,30 +41,24 @@ body {
   nav > a {
     margin: 1% 1% 1% 1%;
     background: rgb(75, 99, 64);
-      color: #fff;
-    font-family: "Poiret One", cursive;
-    font-size: 20pt;
+    color: #fff;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 13pt;
     text-align: center;
-    width: 30%;
-    min-width: 80pt;
-    height: 25pt;
-    padding: 8pt;
-    letter-spacing: 12px;
+    padding: 6pt;
+    letter-spacing: 8px;
+
+    text-decoration: none;
   }
   nav {
     display: flex;
-    justify-content: flex-end;
-    height: 100pt;
+    justify-content: center;
     background-color:rgb(40, 37, 44);
     overflow: hidden;
-    float: right;
-    margin-bottom: 100pt;
-    width: 100;
   }
 
 a:hover {
-    border-color: white;
-    border-style: dotted;
+    background-color: rgb(146, 113, 51);
 }
   .has-border {
     border-radius: 25px;

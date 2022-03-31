@@ -1,4 +1,59 @@
 
+    .btn{
+      background: rgb(75, 99, 64);
+      color: #ebe1d2;
+      text-align: center;
+      padding: 10px 10px 10px 10px;
+        width: 30%;
+        height: 20px;
+        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        ;
+    }
+    
+  
+    body {
+    background-image: url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/58029cc358d255cd9e2f1ca3/rrrr.jpg");
+        background-position: 50% 50%;
+      line-height: 1.7;
+      height: 100%;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+      justify-content: center;
+      align-items: center;
+    }
+
+    nav > a {
+      margin: 1% 1% 1% 1%;
+      background: rgb(75, 99, 64);
+      color: #fff;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
+      font-size: 13pt;
+      text-align: center;
+      padding: 6pt;
+      letter-spacing: 8px;
+
+      text-decoration: none;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color:rgb(40, 37, 44);
+      overflow: hidden;
+    }
+  
+  a:hover {
+      background-color: rgb(146, 113, 51);
+  }
+
+
+
+
 .grid-container{
     height: 100%;
     max-width: 600px;
@@ -9,9 +64,11 @@
     grid-template-rows: 150px 160px 180px 110px;
     background-color: whitesmoke;
     border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
 }
 
-header{
+.header{
     text-align: left;
     grid-column: 2/4;
     grid-row: 1/2;
@@ -26,7 +83,7 @@ header{
 h1{
     font-size: 50px;
     margin-top: 20px;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
     font-family: 'Questrial', sans-serif;}
 h2 {
 margin-bottom: -10px;
@@ -46,6 +103,7 @@ ul, p {
 }
 p {
     margin-top: -10px;
+    font-size: 10px;
 }
 hr {
     width: 350px;
@@ -59,6 +117,7 @@ hr {
     display: block;
     
 }
+
 
 img{
     width: 228px;
@@ -113,10 +172,29 @@ section{
     grid-column-start: 2;
     grid-row-start: 2;
     width: 200px;
+    font-size: 10px;
 }
+
+.profinfo h3{
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.profinfo p{
+    line-height: 12px;
+}
+
+.coreskills h3{
+    line-height: 20px;
+    font-size: 16px;
+}
+
+
 
 .coreskills ul{
     margin-top: -10px;
+    font-size: 8px;
+    line-height: 15px;
 }
  
 section h3{
@@ -149,7 +227,7 @@ section h3{
     font-family: 'Montserrat', sans-serif;
 }
 .leftcolumn {
-    background-color: lightskyblue;
+    background-color: rgb(239,214,197);
     grid-column-start: 1;
     grid-row-start: 3;
     grid-row-end: 6;
@@ -163,19 +241,27 @@ h5{
     font-weight: lighter;
 }
 .middlecolumn{
-    line-height: 20px;
+    line-height: 12px;
     margin: 0px;
-    font-size: 14px;
+    font-size: 12px;
     padding-right: 10px;
+    padding-left: 15px;
+}
+.middlecolumn h3 {
+    padding-left: 100px;
 }
 .middlecolumn3{
     line-height: 20px;
     margin: 0px;
-    font-size: 14px;
+    font-size: 13px;
     padding-right: 10px;
+    padding-left: 15px;
+    
+
 }
 
-.workparagraph{
-    font-size: 10px;
-    margin: 0px;
+.middlecolumn3 h3{
+    font-size: 18px;;
+    padding-left: 100px;
 }
+

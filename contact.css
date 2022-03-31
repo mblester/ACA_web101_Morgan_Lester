@@ -2,29 +2,30 @@ body {
     background-color: #fff;
     line-height: 1.9;
     position: relative; 
-    height: 100%;
+    height: 90%;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     justify-content: center;
     align-items: center;
+    background-image: url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/58029cc358d255cd9e2f1ca3/rrrr.jpg");
+    background-position: 50% 50%;
     }
 
 .container-contact {
         width: 100%;
-        min-height: 100vh;
+        min-height: 90vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         padding: 15px;
-        background-image: url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/58029cc358d255cd9e2f1ca3/rrrr.jpg");
-        background-position: 50% 50%;
+       
     }
     .wrap-contact {
         width: 500px;
         background-color: rgba(240, 240, 240, 0.7);
         border-radius: 10px;
         overflow: hidden;
-        padding: 42px 55px 45px 55px;
+        
     }
   
   h1, h2, h3, h4, h5, h6,
@@ -46,20 +47,29 @@ body {
     .inputBox{
         outline: none;
         border: none;
+        padding-top: 5px;
+        border-bottom: 2px solid #ebe1d2;
+        width: 200px;
+        background-color: transparent;
+        font-size: 12px;
     }
 
     .btn-submit {
       background: rgb(75, 99, 64);
       color: #fff;
       text-align: center;
-      padding: 15px 20px;
-        padding: 0 20px;
         width: 50%;
         height: 50px;
         font-family: 'Zen Kaku Gothic Antique', sans-serif;
         font-size: 20px;
         line-height: 1.2;
         text-transform: uppercase; 
+    }
+
+    .submit{
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 
     .select-container {
@@ -79,14 +89,7 @@ body {
         padding-bottom: 15px;
     }
 
-    .inputBox{
-        padding-top: 5px;
-        border-bottom: 2px solid #ebe1d2;
-        margin-bottom: 27px;
-        background-color: transparent;
-        font-size: 12px;
-
-    }
+  
     .input {
         display: block;
         width: 100%;
@@ -109,13 +112,7 @@ body {
         font-family: 'Zen Kaku Gothic Antique', sans-serif;
     }
   .submitting {
-    float: left;
-    width: 100%;
-    padding: 10px 0;
-    display: none;
-    font-weight: bold;
-    font-size: 12px;
-    color: #000; }
+    display: none;}
 
     div{
         margin: 15px;
